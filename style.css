@@ -1,0 +1,140 @@
+/* Google Logo */
+#google {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 900px;
+    bottom: 50px;
+    left: 375px;
+}
+
+/* Search bar shape */
+.search {
+    transition: box-shadow .1s;
+    border-radius: 100vh;
+    border: 0.5px solid#D3D3D3
+}
+
+.search:hover {
+    box-shadow: 0 0 4px rgba(33,33,33,.2);
+}
+
+/* Search bar position */
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 40px;
+}
+
+/* .input-search{
+    display: absolute;
+    left: 0;
+    bottom: 5px;
+} */
+ 
+textarea:focus, input:focus{
+    outline: none;
+}
+
+ input {
+    font-size: 11pt;
+}
+
+
+.left-nav {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.right-nav {
+    float: right;
+    display: flex;  
+    margin-right: 15px;  
+    margin-top: 15px;
+}
+
+#app-icon {
+    transition: box-shadow .1s;
+}
+
+#app-icon:hover {
+    box-shadow: 0 0 4px rgba(33,33,33,.2);
+}
+
+
+.sign-in {
+    float: right;
+    border: transparent;
+    border-radius: 4px;
+    cursor:pointer;
+    padding: 10px 17px 10px 17px;
+    background-color: #1a75ff;
+    color: white;
+}
+
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+a:hover {
+        text-decoration: underline;
+}
+
+.button-style {
+    transition: box-shadow .1s;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+    border-color: white;
+    margin-left: 20px;
+    margin-top: 20px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor:pointer;
+}
+
+.but-hov:hover {
+    box-shadow: 0 0 5px rgba(22,22,22,.2);
+}
+
+#footer-bot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #F0F0F0;
+}
+
+.left-footer {
+    display: inline-block;
+    align-items: center;
+    margin: 15px;
+    color: #707070;
+}
+
+.middle-footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 32px;
+    color: #707070;
+}
+
+.right-footer {
+    position: relative;
+    float: right;
+    margin: 15px;
+    bottom: 66px;
+    color: #707070
+}
